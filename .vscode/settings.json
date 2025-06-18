@@ -1,0 +1,10 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "MainDB",
+            "database": "${workspaceFolder:Commitly Backend}/databases/main.db"
+        }
+    ]
+}
