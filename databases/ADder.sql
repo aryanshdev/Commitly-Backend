@@ -1,5 +1,5 @@
 -- DELETE ALL CHATS
 -- DELETE FROM chats WHERE receiverID IS NOT NULL;
-
+DELETE FROM users;
 -- INSERT INTO CHATS FOR SPECIFIC USER
--- INSERT INTO chats (receiverID, senderID, message, status) VALUES ('eUnWXaqsHFRE', 'fSDG8kxnp6m3', "Hi", 'UD' );
+-- INSERT INTO chats ( senderID, message, status) VALUES ( 'commitly', "Hi There, Welcome To Commitly", 'D' );

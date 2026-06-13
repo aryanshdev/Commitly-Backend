@@ -12,6 +12,7 @@ cloudinary.config({
 
 router.post("/firstDataEntry", async (req, res) => {
   var userID = req.headers["x-app-uuid"];
+  console.log("Fgfg")
   try {
     await Promise.all([
       cloudinary.uploader
